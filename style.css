@@ -48,6 +48,8 @@ h1 {
   font-size: 4rem;
   color: #6975a6;
   margin-block: 0.5rem;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 h2 {
@@ -96,7 +98,7 @@ a {
   border-style: double;
   border: 0.5px solid transparent;
   border-radius: 25px;
-  margin: 10;
+  margin: 10px;
   padding: 7px;
   background-color: #907b8f;
   color: white;
