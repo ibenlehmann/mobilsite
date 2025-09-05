@@ -54,6 +54,7 @@ h2 {
   font-family: loraitalic;
   font-size: 1.5rem;
   margin-block: 0.9rem;
+  color: #6975a6;
 }
 h3 {
   font-family: "PT Serif", serif;
@@ -66,10 +67,12 @@ p {
   font-size: 1rem;
   margin-block: 1rem;
 }
+
 dl {
   border: 5px solid #6975a6;
   border-radius: 10px;
 }
+
 dd {
   padding-left: 15px;
   padding-bottom: 10px;
@@ -83,6 +86,23 @@ dt {
   background-color: #907b8f;
   color: white;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.iben {
+  border-style: double;
+  border: 0.5px solid transparent;
+  border-radius: 25px;
+  margin: 10;
+  padding: 7px;
+  background-color: #907b8f;
+  color: white;
+  font-weight: bold;
+}
+
 /*********** andet *************/
 main {
   padding: 20px;
@@ -93,6 +113,11 @@ main {
 header {
   background-color: #907b8f;
   padding: 20px;
+  color: white;
+}
+
+body {
+  background-color: #f8eff8;
 }
 
 footer {
