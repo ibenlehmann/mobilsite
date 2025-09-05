@@ -1,0 +1,89 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/********fonts******/
+@font-face {
+  font-family: "cormorant_uprightbold";
+  src: url("fonts/cormorantupright-bold-webfont.woff2") format("woff2"),
+    url("fonts/cormorantupright-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "loraitalic";
+  src: url("fonts/lora-italic-variablefont_wght-webfont.woff2") format("woff2"),
+    url("fonts/lora-italic-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/******** color **********/
+.color {
+  color: #6975a6;
+  color: #907b8f;
+  color: #c6b0c5;
+  color: #dfe1f3;
+}
+
+/********** style af billeder *********/
+img {
+  border: 10px double #c6b0c5;
+  margin-top: 1rem;
+}
+
+/********* style af text *********/
+h1 {
+  font-family: cormorant_uprightbold;
+  font-size: 4rem;
+  color: #6975a6;
+  margin-block: 0.5rem;
+}
+
+h2 {
+  font-family: loraitalic;
+  font-size: 1.5rem;
+  margin-block: 0.9rem;
+}
+h3 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: "PT serif", serif;
+  font-size: 1rem;
+  margin-block: 1rem;
+}
+dd {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  background-color: #dfe1f3;
+}
+dt {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #907b8f;
+  color: white;
+}
+/*********** andet *************/
+main {
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #907b8f;
+  padding: 20px;
+}
