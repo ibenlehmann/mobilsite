@@ -49,7 +49,7 @@ h1 {
   color: #6975a6;
   margin-block: 0.5rem;
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: manual;
 }
 
 h2 {
